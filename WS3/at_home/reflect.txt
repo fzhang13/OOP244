@@ -1,0 +1,19 @@
+/**********************************************************
+* Name: Xin Song (Felix) Zhang
+* Student ID: 111976171
+* Seneca email: xszhang3@myseneca.ca
+* Date of Completion: 06/01/2018
+**********************************************************/
+Reflection:
+1. There are 41 (40 + 1 ) characters that stores the familyName and givenName because 40 characters are reserved for the name and the 1 extra character is reserved for the null terminating character.
+
+2.Function overloading 
+
+3.In this workshop, I learned how to correctly validate SIN number using the weighted sum method and the usage of constructors.
+
+Quiz Reflection:
+
+1. Correction : The member function will know which object is the current instance using the syntax "this."
+
+2. Correction: The complier does not create the default no-argument constructor if a constructor with parameters is declared within the class.
+

@@ -1,0 +1,20 @@
+/**********************************************************
+ * Name: Xin Song (Felix) Zhang
+ * Student ID: 111976171
+ * Seneca email: xszhang3@myseneca.ca
+ * Date of Completion: June 14th, 2018
+ **********************************************************/
+
+Workshop 5 Reflection
+
+1. the object declared inside the operator+ is a temporary object and will go out of scope once the function finishes. Hence we cannot return a reference to a fraction object
+
+2.(a + b).display(); and (b + d).display() are temporary objects in the tester moduel because they both used the operator+ functino and those objects inside are only temporary because they go out of scope.
+
+
+3.Simplication I made to my class to minimize duplication is to call on isEmpty() when required to validate if object is valid or not. as well reduce() is used to generate the lowest common denominator.Lastly, the default constructor was called to set the entry back to a safe empty state when needed.
+
+4.I've learned how to correctly overload different member operators, as well as building on previous knowledge of how to set up default constructors and initializing safe empty states.
+
+Quiz Reflection:
+No mistakes were made on the quiz.

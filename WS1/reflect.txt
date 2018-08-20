@@ -1,0 +1,38 @@
+/**********************************************************
+ * Name:Xin Song Felix Zhang
+ * Student ID:111976171
+ * Seneca email: xszhang3@myseneca.ca
+ * Date of Completion: May 18th, 2018
+ **********************************************************/
+
+
+
+
+At_home reflection
+
+1. a namespace is a declaration that provides a scope to the identifiers inside .It allows us  to avoid identifier conflicts when we're using different namespaces.
+
+2.Header files contains the declarations of functions and variables,which can be imported into any C++ programs using #include. Header files are used to seperate declaration from definition, they are also used to link all object files together to create a final executeable.
+
+3.Headers files should never be compiled because they are already included in the .cpp files.Header files are meant to be included into the .cpp files and not run through the compiler as a independant file.
+
+4. .cpp files contains definitions, and including definitions in another .cpp file is illegal and would create an error.
+
+5.
+-The difference betweeen header files and .cpp files and how to correctly use them (ie. declaration should go into header files, and definitions should be in .cpp files). 
+-The usage of header guard to avoid problems when using #include (multiple inclusions)
+-The usage of namespace to enclose a certain scope.
+
+
+Quiz 1 Reflection
+Mistake- The definition of Inheritance.
+The correct answer to inheritance is that inheritance is the process of creating a new class from existing class while inheriting the data and methods of its parents.
+
+Question 2
+Mistake- Class was answered as a primitive type
+Class is a compound type instead of a primitive type 
+
+Question 3
+Mistake- Definition of Reference
+A reference is an alias for the object it refers to. Any change made to the reference directly affects the object it was refering to. 
+     

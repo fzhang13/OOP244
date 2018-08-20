@@ -1,0 +1,25 @@
+/**********************************************************
+ * Name: Xin Song (Felix) Zhang
+ * Student ID: 111976171
+ * Seneca email: xszhang3@myseneca.ca
+ * Date of Completion: Jun 8th, 2018
+ **********************************************************/
+
+
+Workshop 4 Reflection:
+
+1.A safe empty state is the idea that an object is defined in such a way that it will set a "safe" value to be used during query and modifying. Objects will remain the same predefined value in the safe empty state unless another function (such as set()) is called to change the state. You can also use a constructor or boolean flag to define a safe empty state  
+
+2.I minimized code duplication by calling constructors of a different parameters from another constructors. For example, calling the 2 parameter constructor inside the 5 parameter constructor, or calling the default constructor inside constructors with 2 parameters.
+
+3.Because canTravelWith() is within the Passenger:: class, therefore it will have access to the private member. In C++ the access control(private/public) works on the class level basis instead of object level basis. Objects within the same class can access one another.
+
+4.For strncpy() function to execute correctly, the extra length should be filled with '\0' if the source is less than the length of characters. The remainder of destination should be filled with null terminators for it to terminate and execute properly.
+
+5.In this work shop, I learned how to correctly set up and define a constructor. I also learned how to define the default constructor that will set objets to a safe empty state. I also learned how to minimize code duplication by calling different constructors at various times to reduce redundancies.
+
+
+Quiz 4 Reflection:
+
+Question 3 Corrections:
+A destructor are member functions that acts as clean up for the member data by using the syntax ~ in front of the default constructor.

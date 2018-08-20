@@ -1,0 +1,32 @@
+/**********************************************************
+ * Name: Xin Song (Felix) Zhang
+ * Student ID: 111976171
+ * Seneca email: xszhang3@myseneca.ca
+ * Date of Completion: May 25th, 2018
+ **********************************************************/
+
+Reflection:
+
+1. Dynamic memory allocation does not allow the memory to change once allocated. If we do not allocate new memory when we increase the size of the existing array, we will have an overflow of data.
+
+2.Because in the Kingdom Struct, the size of the array is already fixed and memories are automatically allocated when created based on the declaration.In this case we need 36 bytes(32 for m_name and 4 for m_population). Once we are done with the struct, it will automatically deallocate 36 bytes.
+
+3.Calls can be made on different display() based on the parameters/function signatures. For example, display(Kingdom &kingdom) only takes a reference and display(Kingdom *kingdom, int) takes an pointers and an int.
+
+4.I learned how to dynamically allocate memory and deallocate memory in this workshop. I also learned that when an array size changes, you also have to allocate new memory for it. As well as how to call on different display(...) based on its parameters and function signatures.  
+
+Quiz 2 Reflection
+
+Correction made
+Question 1: 
+Preprocess- gives instructions to compiler to to preprocess all information before compilation starts. this includes all #define macros and #include and relevant header files.
+
+Compilation- compiles the source code and translate them into machine readable language   
+
+Linking- links all the object and binary codes together along with libraries to produce an executable.
+
+Question 2:
+Private and Public keywords are access modifiers. They determine if a member of the class or struct can be accessed from externally from outside of that class/struct. Private should be declared for those members in a class/struct when we do not want external access to. Public should be decalred for those that can be accessed externally
+
+Question 3:
+Class has all of its member set as private whereas a Struct has all of its member set as public by default.  

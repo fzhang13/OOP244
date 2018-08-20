@@ -1,0 +1,29 @@
+/**********************************************************
+ * Name: Xin Song Zhang
+ * Student ID: 111976171
+ * Seneca email: xszhang3@myseneca.ca
+ * Date of Completion: July 20th, 2018
+ **********************************************************/
+
+
+Workshop 8 Reflection
+
+1. The difference between an abstract class and a concrete class is that an abstract class is a class that contains one or more pure virtual functions whereas a concrete class will have no pure virtual functions.Concrete class are also derived class that will implement functionality for the interface while abstract class are most of the time a base class that defines an interface.
+
+2.A few functions that shadows the functions of the same name in the workshop:
+
+ChequeingAccount::credit() shadows the Account::credit() function.
+ChequeingAccount::debit() shadows the Account::debit() function.
+ChequeingAccount::monthEnd() shadows SavingsAccount::monthEnd() function.
+ChequeingAccount::displa() shadows SavingsAccount::display() function.
+
+3. In this workshop, I have learned how to properly implement derived class from their base classes and how to define abstract classes within the derived class using pure virtual functions.
+
+Quiz Reflection 
+9/10
+#3 Correction
+Abstract base class are used specifically as a base class and contains at least one pure virtual functions defined as follwing:
+class Person{
+public:
+	virtual void display()const = 0;
+}; 

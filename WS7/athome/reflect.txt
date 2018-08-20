@@ -1,0 +1,16 @@
+Workshop 7 Reflection
+
+1. No, the Hero class does not need to know about the existence of the SuperHero class because the SuperHero class is a derived class of the Hero base class, which inherits its member functions from it.
+
+2.Yes, the SuperHero class need to know about the existence of the Hero class because for SuperHero class to inherit member functions from its base class, which is the Hero class.
+
+3.It will output "Ancient Battle" going off by the base class because it is the only function that matches the same parameters.
+
+4.Both defitions are valid as they can be done through the operator* function.
+
+
+Quiz Reflection
+9/10
+No major error
+Question 3 correction:
+base member function will always call its highest type. which is its derived class

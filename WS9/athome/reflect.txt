@@ -1,0 +1,27 @@
+Workshop 9 Reflection
+
+1. No, it does not compile when I try to move all the templated function into Data.cpp nor does it compile whn i move all the functions to Data.h. In both cases, they create an linker error that prevents the code from executing. When the compiler looks into the main and needs to instantiate a function, it will not recognize because it needs to see template as well as the function at the same time.
+
+2. You cannot move a templated function into the main because it will not have a matching function to call on in the Data.cpp file because the matching templated function has been moved.
+
+3.The workshop could've been done by overloading the function to accept int and double. However, this makes the point of polymorphism moot and creates redudancy in writing extraneous code.
+
+4.Yes they are the same.
+
+Quiz Reflection
+7/10
+functions are blueprints that gives classes and function generic typiing, This reduces code duplication by allowing one definition to work with multiple types instead of multiple defintion.
+
+template<typename T>
+class Foo{
+	T bar;
+};
+
+The four types of polymorphism are:
+Coercion- which allows conversion changes in the argument type to match the function parameter.
+
+Overloading- allows the binding of function calls with the same identifer
+
+Inclusion - allows the for multiple member function definitions based on the object's type
+
+Parametric - allows function defintions that have the same logic independent of of type. 

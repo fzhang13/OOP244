@@ -1,0 +1,18 @@
+/**********************************************************
+ * Name: Xin Song Zhang
+ * Student ID: 111976171
+ * Seneca email: xszhang3@myseneca.ca
+ * Date of Completion: July 1st, 2018
+ **********************************************************/
+
+
+Lab 6 Reflection
+
+1.We are required to check for self-assignment before doing anything else because we want to make sure the instance we're copying to is empty and the instance we are copying from does not get accidentally dealloacted,set to an empty state or assigned other values. 
+
+2.I avoided code duplication by calling on different constructors at different points to avoid redudant code writing(ex. default constructor for safe empty state, isEmpty() to check for Empty entries.
+
+3.In this workshop, I learned how to correctly define a copy assignment and copy constructor and know the difference between them. I also reviewed my knowledge on the operator overload from previous labs.
+
+Quiz Reflection
+No quiz this week.  
