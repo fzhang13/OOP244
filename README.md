@@ -1,6 +1,12 @@
-# OOP244
+# OOP244 Assignments and Projects
 
-Contains all the relevant classwork assignments and projects done in C++
+## Description
+# Contains all the relevant classwork assignments and projects done in C++
+# For reference only. Please feel free to use it as a sample, but do not copy the code. Thank you!
 
-Written in C++
-By Felix Xin Song Zhang
+
+
+* **Written in C++ by Felix Xin Song Zhang** 
+* **Testing done by Felix Xin Song Zhang** 
+
+
